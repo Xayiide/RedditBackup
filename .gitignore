@@ -1,2 +1,5 @@
-# ignore data/tokens.txt
-data/tokens.txt 
+# ignore praw.ini
+src/praw.ini
+
+# ignore __pycache__
+__pycache__/
