@@ -1,0 +1,5 @@
+# ignore praw.ini
+src/praw.ini
+
+# ignore __pycache__
+__pycache__/
