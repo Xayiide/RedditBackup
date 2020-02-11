@@ -3,3 +3,9 @@ src/praw.ini
 
 # ignore __pycache__
 __pycache__/
+
+# ignore Data files
+data/
+
+# ignore editing files
+*.swp
