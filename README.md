@@ -7,3 +7,4 @@
 # Install:
 pip3 install -r requirements.txt  
 -> json, colorama and praw  
+    
