@@ -2,3 +2,7 @@
  · Saved posts  
  · Subs you follow  
  · Multis you follow  
+
+
+# Install:
+pip3 install -r requirements.txt
