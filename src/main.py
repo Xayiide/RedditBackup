@@ -1,11 +1,18 @@
 import praw
 import json
 from colorama import Fore, Style
+import time
 
+t     = time.localtime(time.time())
+year  = t.tm_year
+month = t.tm_mon
+day   = t.tm_mday
 
-MULTISF = '../data/multis.json'
-SUBSF   = '../data/subs.json'
-SAVEDF  = '../data/saved.json'
+date = '{}-{}-{}'.format(year, month, day)
+
+MULTISF = '../data/multis-{}.json'.format(date)
+SUBSF   = '../data/subs-{}.json'.format(date)
+SAVEDF  = '../data/saved-{}.json'.format(date)
 
 
 subs   = []
